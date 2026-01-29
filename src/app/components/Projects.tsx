@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
 import { ArrowRight, ChevronLeft, ChevronRight, MessageCircle } from "lucide-react";
-import heroImage from "figma:asset/15d73c97bd8d4c476b7970dbe20a272e8a824753.png";
 
 interface ProjectsProps {
   onBookingClick: () => void;

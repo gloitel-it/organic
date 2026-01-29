@@ -1,7 +1,7 @@
 import { MapPin, Phone, Mail, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { motion } from "motion/react";
-import { projectId, publicAnonKey } from '/utils/supabase/info';
+import { projectId, publicAnonKey } from "../../../utils/supabase/info";
 
 interface ContactProps {
   onBookingClick?: () => void;

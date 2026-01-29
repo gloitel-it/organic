@@ -1,4 +1,4 @@
-import logo from "figma:asset/3611b20c82348a63a2e243a8b9a832f9b8a512dc.png";
+import logo from "../../assets/logo.svg";
 import { Globe } from "lucide-react";
 import { useState } from "react";
 

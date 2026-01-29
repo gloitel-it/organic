@@ -1,10 +1,8 @@
-import heroImage from "figma:asset/76398620ea36d6d7eb9d0a04c646d99400fc70dc.png";
 
 export default function Hero() {
   return (
     <section 
       className="relative bg-cover bg-center text-white py-32 px-6 md:px-16"
-      style={{ backgroundImage: `url(${heroImage})` }}
     >
       <div className="absolute inset-0 bg-[#2d5f3f]/60"></div>
       

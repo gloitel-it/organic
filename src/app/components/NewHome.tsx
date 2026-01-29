@@ -1,19 +1,15 @@
 import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
-import { 
-  Headphones, 
-  Award, 
-  Users, 
-  CheckCircle, 
+import {
+  Headphones,
+  Award,
+  Users,
+  CheckCircle,
   ArrowRight,
   Leaf,
-  TrendingUp,
-  Shield,
-  Heart,
-  Phone,
+  TrendingUp, Phone,
   Mail,
   Star
 } from "lucide-react";
-import heroImage from "figma:asset/b5a9ba78f499a90f3e6f4c0bd82b4dde8b0af9f6.png";
 
 interface NewHomeProps {
   onBookingClick: () => void;
@@ -60,7 +56,7 @@ export default function NewHome({ onBookingClick, onNavigateAbout, onNavigateSer
             </button>
             <button 
               onClick={handleScrollToAbout}
-              className="bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 text-white px-8 py-3 rounded-full hover:bg-opacity-30 transition-colors"
+              className="bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 text-black px-8 py-3 rounded-full hover:bg-opacity-30 transition-colors"
             >
               Learn More
             </button>
